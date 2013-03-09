@@ -86,11 +86,6 @@ background:url(/images/quote-marks.png) no-repeat;
 color:#444;
 }
 
-html[dir=rtl] .request_listing span.desc {
-background-image:url(/images/quote-marks-rtl.png);
-background-position: top right;
-}
-
 .feed_link a,.act_link a,#header_right > a {
 color:#6B3C6A;
 }
