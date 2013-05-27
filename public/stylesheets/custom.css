@@ -9,9 +9,22 @@ background-position:center top;
 background-color:#F0F0F0;
 background:url(/images/stripes.png);
 }
+#banner_inner a#logo {
+left: 11px;
+top: 27px;
+}
+html[dir="rtl"] #banner_inner a#logo {
+left: auto;
+right: 11px;
+}
 
 #topnav {
 font-family:'DeliciousRoman', Arial, sans-serif;
+margin-left: 130px;
+}
+html[dir=rtl] #topnav {
+margin-left: 0;
+margin-right: 130px;
 }
 
 #topnav li a,#topnav li a:visited {
@@ -147,8 +160,13 @@ background:url(/images/stripes-70-light.png);
 }
 
 #frontpage_splash {
-background:url(/images/flying-computer.png) no-repeat 175px bottom;
+background:url(/images/flying-computer-yedalogo-ltr.png) no-repeat 175px bottom;
 }
+
+html[dir=rtl] #frontpage_splash {
+background:url(/images/flying-computer-yedalogo-rtl.png) no-repeat 275px bottom;
+}
+
 
 #frontpage_splash h1 {
 font-family:'DeliciousRoman', Arial, sans-serif;
