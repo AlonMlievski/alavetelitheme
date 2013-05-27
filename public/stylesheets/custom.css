@@ -147,8 +147,13 @@ background:url(/images/stripes-70-light.png);
 }
 
 #frontpage_splash {
-background:url(/images/flying-computer.png) no-repeat 175px bottom;
+background:url(/images/flying-computer-yedalogo-ltr.png) no-repeat 175px bottom;
 }
+
+html[dir=rtl] #frontpage_splash {
+background:url(/images/flying-computer-yedalogo-rtl.png) no-repeat 275px bottom;
+}
+
 
 #frontpage_splash h1 {
 font-family:'DeliciousRoman', Arial, sans-serif;
