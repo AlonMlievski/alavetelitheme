@@ -1,20 +1,34 @@
 body {
 color:#444;
-font-family:Arial, sans-serif;
+font-family:Alef, Arial, sans-serif;
   background: #BAE9FB !important;
 }
 
+#wrapper{
+	position: relative;
+	margin: 0 auto;
+}
+
 #content{
- background; #fff !important;
+
   width: 100%;
   max-width: 960px;
-  border: 1px solid #000;
+  background:#fff;
+   background; #fff !important;
 }
 
 #banner {
-background-repeat:no-repeat;
-background-position:center top;
-background-color:#fff;
+position: static;
+top: 0;
+background: #F3F3F3;
+left: 0;
+width: 930px;
+border: none;
+height: 160px;
+border: none;
+margin: 0 auto;
+margin-bottom: -160px;
+border-bottom: 1px solid #BAE9FB;
 }
 
 #topnav {
@@ -47,38 +61,34 @@ color:#444;
 color:#92B3FF;
 }
 
-h1,h2,h3 {
- font-family:Trebuchet, Trebuchet MS, Helvetica, sans-serif;
- color:#555;
-}
-
-
-
-
-
 h2,dt {
-color:#93278F;
-font-family:'DeliciousBold', Arial, sans-serif;
+color:#D71920;
+font-family:Alef, Arial, sans-serif;
 font-weight:400;
 }
 
 h3 {
-color:#6B3C6A;
+color:#D71920;
 font-family:Alef, Arial, sans-serif;
 font-weight:400;
 }
 
 a {
-color:#93278F;
+	color:#D71920;
+	text-decoration: none;
+}
+
+a:hover{
+	
 }
 
 p.subtitle {
-font-family:Alef;
+font-family:Alef, Arial, sans-serif;
 color:#6B3C7F;
 }
 
 .request_listing span.head a,.user_listing span.head a,.body_listing span.head a {
-color:#6B3C6A;
+color:#D71920;
 font-family:Alef, Arial, sans-serif;
 font-weight:400;
 }
@@ -89,19 +99,19 @@ color:#444;
 }
 
 .feed_link a,.act_link a,#header_right > a {
-color:#6B3C6A;
+color:#D71920;
 }
 
 #request_form label,label.form_label,span#to_public_body {
-color:#6B3C6A;
+color:#D71920;
 }
 
 span#to_public_body {
-font-family:'DeliciousBold', Arial, sans-serif;
+font-family:Alef, Arial, sans-serif;
 }
 
 #middle_strip {
-color:#93278F;
+color:#D71920;
 }
 
 #stepwise_make_request {
@@ -109,7 +119,7 @@ background-color:#d0d0d0;
 background:url(/images/stripes.png);
 border:1px solid #DEBEDD;
 font-family:Alef, Arial, sans-serif;
-color:#6B3C6A;
+color:#D71920;
 }
 
 div.comment_in_request {
@@ -124,7 +134,7 @@ font-family:Alef, Arial, sans-serif;
 }
 
 #navigation_search input[type=text] {
- border-color:#BE7DBC;
+ border-color:#BAE9FB;
 }
 
 
@@ -139,10 +149,10 @@ font-family:Alef, Arial, sans-serif;
 }
 
 div.frontpage-box {
-background:url(/images/stripes.png);
+background:#fff;
 border:1px solid #DEBEDD;
 font-family:Alef, Arial, sans-serif;
-color:#6B3C6A;
+color:#D71920;
 }
 
 
@@ -162,56 +172,57 @@ background:none;
 #frontpage_splash h1 {
 font-family:Alef, Arial, sans-serif;
 font-size:39px;
-color:#6B3C6A;
+color:#D71920;
 font-weight:400;
 margin:0 0 20px;
 }
 
 #frontpage_splash h1 strong {
-font-family:'DeliciousHeavyRegular', Arial, sans-serif;
-font-size:54px;
-color:#93278F;
+font-family:Alef, Arial, sans-serif;
+font-size:39px;
+color:#D71920;
 font-weight:400;
+font-style:normal;
 }
 
 #frontpage_splash h1 span {
-font-family:Georgia;
-font-style:italic;
+font-family:Alef, Arial, sans-serif;
+font-size:39px;
+color:#D71920;
 font-weight:400;
-font-size:25px;
-color:#6B3C6A;
+font-style:normal;
 }
 
 #frontpage_splash h2 {
 font-size:26px;
 font-weight:400;
-color:#6B3C6A;
+color:#D71920;
 font-family:Alef, Arial, sans-serif;
   
 }
 
 #frontpage_splash h2 strong {
 font-size:31px;
-color:#93278F;
-font-family:'DeliciousBold', Arial, sans-serif;
+color:#D71920;
+
 }
 
 #frontpage_splash h2 span {
-color:#6B3C6A;
+color:#D71920;
 font-style:italic;
 font-size:19px;
-font-family:Georgia;
+font-family:Alef, Arial, sans-serif;
 }
 
 
 #ui-datepicker-div.ui-widget {
-font-family:Arial, sans-serif;
-color:#93278F;
+font-family:Alef, Arial, sans-serif;
+color:#D71920;
 }
 
 #ui-datepicker-div .ui-datepicker-header,#ui-datepicker-div .ui-widget-header {
-color:#93278F;
-font-family:Alef;
+color:#D71920;
+font-family:Alef, Arial, sans-serif;
 }
 
 #ui-datepicker-div .ui-state-default:hover {
@@ -225,7 +236,7 @@ color:#FFF;
 }
 
 #other-country-notice {
-background:#93278F;
+background:#D71920;
 color:#FFF;
 }
 
@@ -246,19 +257,19 @@ z-index:999;
 opacity:0.9px;
 border-radius:6px;
 -moz-border-radius:6px;
-border:1px solid #93278F;
+border:1px solid #D71920;
 display:none;
 padding:5px;
 }
 
 #link_box .close-button {
-background-color:#93278F;
+background-color:#D71920;
 margin-left:15px;
 padding:0;
 }
 
 div.correspondence p.preview_subject {
-font-family:Alef;
+font-family:Alef, Arial, sans-serif;
 color:#6B3C7F;
 }
 
@@ -267,7 +278,7 @@ color:#6B3C7F;
 }
 
 div.controller_help h1 a,#logged_in_bar a,#logged_in_bar a:visited,#stepwise_make_request strong {
-color:#93278F;
+color:#D71920;
 }
 
 
@@ -284,7 +295,7 @@ background:url(../images/quote-marks.png) no-repeat;
 }
 
 h1, h2{
-	font-family: alef !important;
+font-family:Alef, Arial, sans-serif;
   color: #D71920 !important;
   font-size: 20px;
 font-weight:bold !important;
@@ -292,13 +303,13 @@ font-weight:bold !important;
 }
 
 h1 span, h2 span{
-	font-family: alef !important;
+font-family:Alef, Arial, sans-serif;
   color: #D71920 !important;
   font-weight:bold !important;
 }
 
 h1 stong, h2 strong{
-	font-family: alef !important;
+font-family:Alef, Arial, sans-serif;
   color: #D71920 !important;
   font-weight:bold !important;
 }
@@ -313,4 +324,8 @@ h1 stong, h2 strong{
   color: #D71920;
 	background:#BAE9FB;
   width: 300px;
+}
+
+#frontpage_splash {
+	background: none !important;
 }
