@@ -60,6 +60,32 @@ body {
 	border-bottom:none !important;
 	border-top: none !important;
 	margin-right: -3px !important;
+	
+}
+
+#navigation_search_button{
+	color:#BAE9FB;
+	border-left: 3px solid #BAE9FB !important;
+	border-bottom: 3px solid #BAE9FB !important;
+	border-top: none !important;
+	border-right: none !important;
+	margin-top: -1px;
+}
+
+#navigation_search_button:hover {
+	border-left:none !important;
+	border-bottom:none !important;
+	border-top: none !important;
+	margin-right: -3px !important;
+}
+
+.lang{
+	color: #50ccff !important;
+}
+
+.lang:hover{
+	color: #50ccff !important;
+	border-top: 1px solid #50ccff;
 }
 
 /*-----------------------END Header -------------------------*/
@@ -344,7 +370,7 @@ h1 stong, h2 strong{
 	z-index: 99;
 }
 
-submit{
+#search_form submit{
 	color: #fff !important;
 	margin-right: 0;
 	background: #50ccff !important;
@@ -405,6 +431,22 @@ submit{
 		margin-top: 50px;
 }
 
+input[type=submit] {
+    color: #fff !important;
+	margin-right: 0;
+	background: #50ccff !important;
+	
+	border-left: 3px solid #fff !important;
+	border-bottom: 3px solid #fff !important;
+}
+
+input[type=submit]:hover {
+	border-left: none !important;
+	border-bottom: none !important;
+	margin-top: 3px;
+	margin-right: 3px;
+}
+
 /*-----------------------END Main boxes-------------------------*/
 
 #frontpage_splash {
@@ -421,9 +463,6 @@ submit{
 	margin: 0 auto;
 }
 
-.lang{
-	color: #50ccff !important;
-}
 
 #footer{
 	background: #50ccff;
